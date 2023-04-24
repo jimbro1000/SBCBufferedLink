@@ -1,0 +1,12 @@
+"Source:","/home/julian/Documents/Kicad/7/projects/SBCBufferedLink/SBCBufferedLink.kicad_sch"
+"Date:","Mon 24 Apr 2023 20:01:24 BST"
+"Tool:","Eeschema 7.0.2"
+"Generator:","/app/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","9"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP"
+"1","1","J1","Left","Connector_Generic:Conn_02x30_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical","~",""
+"2","1","J2","Right","Connector_Generic:Conn_02x30_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical","~",""
+"3","7","U1, U2, U3, U4, U5, U6, U8","~","TI_LSF0108:LSF0108","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","",""
