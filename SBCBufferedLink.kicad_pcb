@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "HD6309 SBC Backplane Link")
+    (date "2023-04-24")
+    (rev "Revision 1")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -1314,6 +1320,14 @@
     )
   )
 
+  (gr_line (start 107.2388 37.7952) (end 149.352 37.7952)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 2758908d-99b1-49e2-acca-6baf00b90d07))
+  (gr_line (start 107.2388 117.7544) (end 107.2388 37.7952)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 6cfbd5dc-0436-4836-85ab-6633ba41a4b2))
+  (gr_line (start 149.4028 117.7544) (end 107.2388 117.7544)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 8a18e932-3ef3-46b0-b51e-e87801d962e9))
+  (gr_line (start 149.352 37.7952) (end 149.4028 117.7544)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 9879d2b7-dad8-47b4-89eb-14006d3c5ed7))
   (gr_line (start 107.2896 60.0456) (end 149.7076 60.0456)
     (stroke (width 0.15) (type default)) (layer "User.1") (tstamp 01f5ad67-857d-4cf4-bd01-ebd1678ccbd4))
   (gr_line (start 107.2896 98.1456) (end 149.8092 98.1456)
@@ -1322,6 +1336,12 @@
     (stroke (width 0.15) (type default)) (layer "User.1") (tstamp e052859d-8fbf-45a4-b20b-872bb88f79a2))
   (gr_line (start 122.174 34.544) (end 122.174 121.412)
     (stroke (width 0.15) (type default)) (layer "User.1") (tstamp f7e2f74c-3d5b-4c8d-889f-edcfe930ac12))
+  (gr_text "HD6309 Backplane\nLink" (at 134.7724 112.522) (layer "F.SilkS") (tstamp 0aeca705-47b3-4dc9-b6d3-d4b8632a1a78)
+    (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
+  )
+  (gr_text "Rev.1" (at 132.8928 114.4524) (layer "F.SilkS") (tstamp f32901d3-6459-43a5-ac6e-7c62aa3be991)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
 
   (segment (start 123.709 47.7122) (end 124.9857 47.7122) (width 0.5) (layer "F.Cu") (net 2) (tstamp 0403f9dd-d1b5-4183-9b8f-aecbe76f882a))
   (segment (start 118.375 47.7122) (end 118.920751 47.7122) (width 0.5) (layer "F.Cu") (net 2) (tstamp 08455007-0ab6-42cf-b3f8-661921521014))

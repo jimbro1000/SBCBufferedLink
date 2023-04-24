@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "HD6309 SBC Backplane Link")
+    (date "2023-04-24")
+    (rev "Revision 1")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x30_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 38.1 0)
